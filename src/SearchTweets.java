@@ -11,6 +11,8 @@ public class SearchTweets {
 
         private static Twitter twitter;
 
+    // testing push
+
         private static void setupTwitter() {
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
